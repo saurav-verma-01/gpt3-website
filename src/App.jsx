@@ -13,18 +13,18 @@ import { Cta, NavBar, Brand } from "./components";
 import styles from "./app.module.css";
 const App = () => {
   return (
-    <div className="app">
-      <div className={styles.gradient__bg}>
+    <div className={styles.app}>
+      <div className="gradient__bg">
         <NavBar />
-        <Header />
+        {/* <Header /> */}
       </div>
-      <Brand />
+      {/* <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
       <Cta />
       <Blog />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
