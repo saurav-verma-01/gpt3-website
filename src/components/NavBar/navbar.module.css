@@ -1,9 +1,9 @@
 .nav {
-  padding: 4rem 6rem;
+  padding: 2rem 6rem;
   color: #fff;
 
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   font-weight: 500;
   font-size: 1.125rem;
@@ -11,9 +11,7 @@
   position: relative;
 }
 .logo {
-  @media screen and (max-width: 1200px) {
-    margin-right: auto;
-  }
+  margin-right: auto;
 }
 
 .logo img {
@@ -23,6 +21,7 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-right: 4rem;
 
   @media screen and (max-width: 1200px) {
     display: none;
@@ -38,7 +37,7 @@
   transition: all 0.35s ease;
 }
 .nav__menu a:hover {
-  border-color: #ff4820;
+  border-color: var(--color-accent);
 }
 .nav__menu a:active {
   border-color: #fff;
@@ -63,20 +62,20 @@
   font: inherit;
 }
 .signin:hover {
-  color: #ff4820;
+  color: var(--color-accent);
 }
 .signup:link,
 .signup:visited {
   font-size: 1.125rem;
   line-height: normal;
-  background-color: #ff4820;
+  background-color: var(--color-accent);
   padding: 1rem 2.8rem;
   border-radius: 0.25rem;
   border: 2px solid transparent;
 }
 .signup:hover {
   background: transparent;
-  border-color: #ff4820;
+  border-color: var(--color-accent);
 }
 
 .btns {
@@ -118,7 +117,7 @@
   transition: all 0.35s ease;
 }
 .mobile__nav__menu a:hover {
-  color: #ff4820;
+  color: var(--color-accent);
 }
 
 .mobile__sign {
@@ -143,11 +142,11 @@
 }
 .mobile__signup:link,
 .mobile__signup:visited {
-  background-color: #ff4820;
+  background-color: var(--color-accent);
   border-radius: 0.25rem;
   border: 2px solid transparent;
 }
 .mobile__signup:hover {
   background: transparent;
-  border-color: #ff4820;
+  border-color: var(--color-accent);
 }
